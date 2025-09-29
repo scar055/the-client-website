@@ -1,1 +1,12 @@
-/* CSS */
+:root {
+  --milledoni-black: #212121;
+  --milledoni-grey: #898a8d;
+  --milledoni-light-grey: #f6f5f5;
+  --milledoni-white: #ffffff;
+  --milledoni-light-yellow: #f9f2d4;
+  --milledoni-yellow: #e2b100;
+  --milledoni-purple: #aa2677;
+  --milledoni-blue: #466ebf;
+  --milledoni-red: #b2291f;
+  --milledoni-green: #20a687;
+}
