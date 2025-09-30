@@ -1,3 +1,4 @@
+/* do not change */
 :root {
   --milledoni-black: #212121;
   --milledoni-grey: #898a8d;
@@ -10,3 +11,37 @@
   --milledoni-red: #b2291f;
   --milledoni-green: #20a687;
 }
+
+body {
+  margin-inline: 2em;
+}
+
+/* header styling */
+
+.milledoni-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.milledoni-header-logo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.milledoni-header-link-button {
+  padding: 5px 10px;
+  border: 1px solid #cbcbcb;
+  border-radius: 2em;
+  text-decoration: none;
+  color: var(--milledoni-black);
+  box-shadow: 0px 0px 10px var(--milledoni-light-grey);
+  transition: 0.5s ease-out;
+}
+.milledoni-header-link-button:visited {
+  color: var(--milledoni-black);
+}
+.milledoni-header-link-button:hover {
+  box-shadow: 0px 0px 10px var(--milledoni-grey);
+}
+
