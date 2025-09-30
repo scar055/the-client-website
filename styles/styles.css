@@ -45,3 +45,23 @@ body {
   box-shadow: 0px 0px 10px var(--milledoni-grey);
 }
 
+/* main styling */
+.milledoni-main {
+  display: flex;
+}
+
+.milledoni-main-chat {
+  align-self: flex-end;
+}
+
+.milledoni-main-product {
+  background-color: var(--milledoni-light-grey);
+  padding-inline: 1em;
+  border-top: 6px solid var(--milledoni-yellow);
+}
+
+.milledoni-main-product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
