@@ -69,3 +69,19 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 1em;
 }
+
+/* footer styling */
+
+.milledoni-footer {
+  display: flex;
+  flex-direction: column;
+}
+.milledoni-footer-email {
+  background-color: var(--milledoni-yellow);
+  display: flex;
+  justify-content: space-evenly;
+}
+.milledoni-footer-info-links,
+.milledoni-footer-copyright {
+  background-color: var(--milledoni-black);
+}
