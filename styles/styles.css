@@ -10,6 +10,8 @@
   --milledoni-blue: #466ebf;
   --milledoni-red: #b2291f;
   --milledoni-green: #20a687;
+
+  line-height: 1.4;
 }
 
 body {
@@ -66,8 +68,12 @@ body {
 
 .milledoni-main-product-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 1em;
+
+  @media (min-width: 678px) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* footer styling */
@@ -81,9 +87,35 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
+.milledoni-footer-black-background {
+  background-color: var(--milledoni-black);
+  color: var(--milledoni-white);
+}
+
 .milledoni-footer-info-links,
 .milledoni-footer-copyright {
   display: flex;
-  background-color: var(--milledoni-black);
+  justify-content: space-around;
+}
+
+.milledoni-footer-info-logo a {
+  display: flex;
+  flex-direction: column;
+}
+
+.milledoni-footer-info-link-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.milledoni-footer-info-link-list li a {
+  text-decoration: none;
   color: var(--milledoni-white);
+}
+
+.milledoni-footer-copyright-list {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5em;
 }
