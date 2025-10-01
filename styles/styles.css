@@ -83,5 +83,7 @@ body {
 }
 .milledoni-footer-info-links,
 .milledoni-footer-copyright {
+  display: flex;
   background-color: var(--milledoni-black);
+  color: var(--milledoni-white);
 }
