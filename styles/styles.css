@@ -38,7 +38,7 @@ body {
 .milledoni-header-logo-big-letters {
   display: none;
 
-  @media (min-width: 679px) {
+  @media (min-width: 678px) {
     display: block;
   }
 }
@@ -46,7 +46,7 @@ body {
 .milledoni-header-logo-small-text {
   display: none;
 
-  @media (min-width: 679px) {
+  @media (min-width: 678px) {
     display: block;
   }
 }
@@ -70,6 +70,11 @@ body {
 /* main styling */
 .milledoni-main {
   display: flex;
+  flex-direction: column;
+
+  @media (min-width: 678px) {
+    flex-direction: row;
+  }
 }
 
 .milledoni-main-chat {
@@ -101,7 +106,12 @@ body {
 .milledoni-footer-email {
   background-color: var(--milledoni-yellow);
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+
+  @media (min-width: 678px) {
+    flex-direction: row;
+  }
 }
 
 .milledoni-footer-black-background {
@@ -112,7 +122,14 @@ body {
 .milledoni-footer-info-links,
 .milledoni-footer-copyright {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  padding-inline: 2em;
+
+  @media (min-width: 678px) {
+    flex-direction: row;
+    padding: 0;
+  }
 }
 
 .milledoni-footer-info-logo a {
