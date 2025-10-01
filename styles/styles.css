@@ -35,6 +35,22 @@ body {
   text-decoration: none;
 }
 
+.milledoni-header-logo-big-letters {
+  display: none;
+
+  @media (min-width: 679px) {
+    display: block;
+  }
+}
+
+.milledoni-header-logo-small-text {
+  display: none;
+
+  @media (min-width: 679px) {
+    display: block;
+  }
+}
+
 .milledoni-header-link-button {
   padding: 5px 10px;
   border: 1px solid #cbcbcb;
