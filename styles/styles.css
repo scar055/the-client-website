@@ -33,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  width: 5em;
 }
 
 .milledoni-header-logo-big-letters {
