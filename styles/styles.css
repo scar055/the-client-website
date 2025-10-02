@@ -82,6 +82,33 @@ body {
   align-self: flex-end;
 }
 
+.milledoni-main-chat-input {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 2em;
+
+  input {
+    width: 100%;
+    border: none;
+    border-radius: 2em;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  button {
+    background-color: var(--milledoni-black);
+    color: var(--milledoni-white);
+    border-radius: 50%;
+    padding: 12px;
+  }
+}
+
+.milledoni-main-chat-input:focus-within {
+  outline: 2px solid var(--milledoni-blue);
+}
+
 .milledoni-main-product {
   background-color: var(--milledoni-light-grey);
   padding-inline: 1em;
@@ -154,6 +181,7 @@ body {
   padding: 0;
   flex-direction: column;
   gap: 1.5em;
+  margin-block-start: 2em;
 
   @media (min-width: 678px) {
     flex-direction: row;
