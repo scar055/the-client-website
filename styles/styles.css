@@ -151,5 +151,15 @@ body {
 .milledoni-footer-copyright-list {
   list-style-type: none;
   display: flex;
+  padding: 0;
+  flex-direction: column;
   gap: 1.5em;
+
+  @media (min-width: 678px) {
+    flex-direction: row;
+  }
+}
+
+.milledoni-footer-logo-small-text {
+  width: 100%;
 }
