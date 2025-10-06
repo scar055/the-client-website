@@ -10,11 +10,11 @@
   --milledoni-blue: #466ebf;
   --milledoni-red: #b2291f;
   --milledoni-green: #20a687;
-
-  line-height: 1.4;
 }
 
 body {
+  font-family: "Parkinsans", sans-serif;
+  line-height: 1.4;
   margin: 0;
 }
 
