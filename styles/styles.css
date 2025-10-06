@@ -27,6 +27,7 @@ body {
 .milledoni-header {
   display: flex;
   justify-content: space-between;
+  margin-block: 1em;
 }
 
 .milledoni-header-logo {
@@ -53,6 +54,7 @@ body {
 }
 
 .milledoni-header-link-button {
+  display: inline-block;
   padding: 5px 10px;
   border: 1px solid #cbcbcb;
   border-radius: 2em;
