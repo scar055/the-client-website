@@ -80,6 +80,7 @@ body {
 
 .milledoni-main-chat {
   align-self: flex-end;
+  margin-block: 1em;
 }
 
 .milledoni-main-chat-input {
@@ -101,7 +102,13 @@ body {
     background-color: var(--milledoni-black);
     color: var(--milledoni-white);
     border-radius: 50%;
+    border: none;
     padding: 12px;
+  }
+
+  button:active {
+    background-color: var(--milledoni-yellow);
+    color: var(--milledoni-black);
   }
 }
 
