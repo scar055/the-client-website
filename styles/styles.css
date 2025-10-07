@@ -89,6 +89,7 @@ body {
   display: flex;
   flex-direction: row;
   border: 2px solid black;
+  background-color: var(--milledoni-white);
   border-radius: 2em;
 
   input {
@@ -139,12 +140,43 @@ body {
 .milledoni-footer {
   display: flex;
   flex-direction: column;
+  margin-block-start: 2em;
 }
 .milledoni-footer-email {
   background-color: var(--milledoni-yellow);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding-inline: 2em;
+  padding-block: 1em;
+
+  .milledoni-footer-chat-input {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--milledoni-white);
+
+    input {
+      width: 100%;
+      border: none;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    button {
+      background-color: var(--milledoni-black);
+      color: var(--milledoni-white);
+      border-radius: 50%;
+      border: none;
+      padding: 12px;
+    }
+
+    button:active {
+      background-color: var(--milledoni-yellow);
+      color: var(--milledoni-black);
+    }
+  }
 
   @media (min-width: 678px) {
     flex-direction: row;
@@ -162,6 +194,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   padding-inline: 2em;
+  margin-block: 1em;
 
   @media (min-width: 678px) {
     flex-direction: row;
@@ -177,6 +210,14 @@ body {
 .milledoni-footer-info-link-list {
   list-style-type: none;
   padding: 0;
+
+  a {
+    transition: 0.5s ease-out;
+  }
+
+  a:hover {
+    color: var(--milledoni-yellow);
+  }
 }
 
 .milledoni-footer-info-link-list li a {
