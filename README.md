@@ -16,9 +16,10 @@ Dit is het design die ik op desktop heb gemaakt.
 <img width="1109" height="704" alt="image" src="https://github.com/user-attachments/assets/ba3c6762-48d8-4b86-9962-5e831a87940e" />
 
 dit is het design die ik voor mobile heb gemaakt.
-
+Heb een colom gebruikt voor de footer want dat lijnd beter uit en is beter leesbaar.
 <img width="138" height="352" alt="image" src="https://github.com/user-attachments/assets/866ef2d8-1347-4b1d-a253-1712ffcf9251" />
 <img width="139" height="352" alt="image" src="https://github.com/user-attachments/assets/33ff3617-9c65-491b-a711-1341e2c65dbb" />
+
 
 
 
