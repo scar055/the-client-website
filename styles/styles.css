@@ -151,7 +151,7 @@ body {
   background-color: var(--milledoni-yellow);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-inline: 2em;
   padding-block: 1em;
 
@@ -197,13 +197,15 @@ body {
 .milledoni-footer-copyright {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   padding-inline: 2em;
   margin-block: 1em;
+  flex-wrap: wrap;
+  gap: 1em;
 
   @media (min-width: 678px) {
     flex-direction: row;
     padding: 0;
+    margin-inline: 2em;
   }
 }
 
@@ -235,8 +237,8 @@ body {
   display: flex;
   padding: 0;
   flex-direction: column;
-  gap: 1.5em;
-  margin-block-start: 2em;
+  gap: 1em;
+  margin-block-start: 1em;
 
   @media (min-width: 678px) {
     flex-direction: row;
