@@ -25,9 +25,11 @@ Heb een colom gebruikt voor de footer want dat lijnd beter uit en is beter leesb
 # Kenmerken:
 
 **HTML**:
+
 svg voor de logo gebruikt.
 
 **CSS**:
+
 Voor uit lijning van flex en grid gebruikt.
 
 Media queries die genest zijn in css selectors.
@@ -38,6 +40,7 @@ Media queries die genest zijn in css selectors.
 [grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 [media queries](https://github.com/fdnd-task/the-client-website/blob/main/docs/breakpoints-en-media-queries.md)
 [layout css](https://github.com/fdnd-task/layout-in-css)
+
 
 
 
