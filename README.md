@@ -9,6 +9,7 @@ op deze link staat mijn verwerkte project https://scar055.github.io/the-client-w
 # Bescrijving:
 
 Dit is het design die we voor de home pagina hebben gekregen.
+
 <img width="508" height="332" alt="image" src="https://github.com/user-attachments/assets/d6178bc7-6072-41ba-9779-01222be8508f" />
 
 Dit is het design die ik op desktop heb gemaakt.
@@ -27,8 +28,9 @@ Heb een colom gebruikt voor de footer want dat lijnd beter uit en is beter leesb
 svg voor de logo gebruikt.
 
 **CSS**:
-Voor uit lijning van flex en grid gebruikt
-Media queries die genest zijn in css selectors
+Voor uit lijning van flex en grid gebruikt.
+
+Media queries die genest zijn in css selectors.
 
 # Bronnen:
 
@@ -36,6 +38,7 @@ Media queries die genest zijn in css selectors
 [grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 [media queries](https://github.com/fdnd-task/the-client-website/blob/main/docs/breakpoints-en-media-queries.md)
 [layout css](https://github.com/fdnd-task/layout-in-css)
+
 
 
 
