@@ -21,12 +21,14 @@ Heb een colom gebruikt voor de footer want dat lijnd beter uit en is beter leesb
 <img width="139" height="352" alt="image" src="https://github.com/user-attachments/assets/33ff3617-9c65-491b-a711-1341e2c65dbb" />
 
 
-#Kenmerken
+# Kenmerken:
+
 **HTML**:
 svg voor de logo gebruikt.
 
 **CSS**:
 Voor uit lijning van flex en grid gebruikt
 Media queries die genest zijn in css selectors
+
 
 
