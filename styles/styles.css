@@ -124,6 +124,12 @@ body {
   outline: 2px solid var(--milledoni-blue);
 }
 
+.milledoni-main-product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .milledoni-main-product {
   background-color: var(--milledoni-light-grey);
   padding-inline: 1em;
