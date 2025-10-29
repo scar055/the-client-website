@@ -239,8 +239,10 @@ body {
     }
   }
 
-  a {
-    transition: 0.5s ease-out;
+  @media (prefers-reduced-motion: no-preference) {
+    a {
+      transition: 0.5s ease-out;
+    }
   }
 
   a:hover {
