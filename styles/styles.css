@@ -82,6 +82,7 @@ body {
 
   @media (min-width: 678px) {
     flex-direction: row;
+    gap: 2em;
   }
 }
 
