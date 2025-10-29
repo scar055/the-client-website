@@ -34,7 +34,13 @@ Voor uit lijning van flex en grid gebruikt.
 
 Media queries die genest zijn in css selectors.
 
-**Toegankelijkheid**
+https://github.com/scar055/the-client-website/blob/0ca4b014dbfcbba2d50bea0f92fbe8c142008a4c/styles/styles.css#L139-L142
+
+https://github.com/scar055/the-client-website/blob/0ca4b014dbfcbba2d50bea0f92fbe8c142008a4c/styles/styles.css#L33-L46
+
+
+**Toegankelijkheid:**
+
 De ruimte tussen de footer linkjes is groter geworden voor touch screen gebruikers
 
 <img width="119" height="181" alt="image" src="https://github.com/user-attachments/assets/d6e5cd3d-804e-4833-866d-897e20a5c58b" />
@@ -47,6 +53,7 @@ De ruimte tussen de footer linkjes is groter geworden voor touch screen gebruike
 [media queries](https://github.com/fdnd-task/the-client-website/blob/main/docs/breakpoints-en-media-queries.md)
 [layout css](https://github.com/fdnd-task/layout-in-css)
 [toegankelijk checklist](https://www.a11yproject.com/checklist/#double-check-that-good-proximity-between-content-is-maintained)
+
 
 
 
