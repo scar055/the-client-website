@@ -201,10 +201,18 @@ body {
       padding: 12px;
     }
 
+    button:focus {
+      background-color: var(--milledoni-green);
+    }
+
     button:active {
       background-color: var(--milledoni-yellow);
       color: var(--milledoni-black);
     }
+  }
+
+  .milledoni-footer-chat-input:focus-within {
+    outline: 2px solid var(--milledoni-black);
   }
 
   @media (min-width: 678px) {
