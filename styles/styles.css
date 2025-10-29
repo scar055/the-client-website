@@ -114,6 +114,11 @@ body {
     padding: 12px;
   }
 
+  button:focus {
+    outline: none;
+    background-color: var(--milledoni-green);
+  }
+
   button:active {
     background-color: var(--milledoni-yellow);
     color: var(--milledoni-black);
@@ -121,7 +126,8 @@ body {
 }
 
 .milledoni-main-chat-input:focus-within {
-  outline: 2px solid var(--milledoni-blue);
+  outline: 2px solid var(--milledoni-yellow);
+  border-color: var(--milledoni-yellow);
 }
 
 .milledoni-main-product-container {
@@ -168,6 +174,10 @@ body {
     background-color: var(--milledoni-white);
     height: 3em;
     width: 18em;
+
+    @media (forced-colors: active) {
+      border: 2px solid var(--milledoni-white);
+    }
 
     @media (min-width: 800px) {
       width: 25em;
