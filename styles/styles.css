@@ -249,7 +249,7 @@ body {
 }
 
 .milledoni-footer-info-link-list li a {
-  text-decoration: none;
+  text-decoration: underline 2px;
   color: var(--milledoni-white);
 }
 
