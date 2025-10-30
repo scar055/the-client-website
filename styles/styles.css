@@ -174,10 +174,14 @@ body {
     flex-direction: row;
     background-color: var(--milledoni-white);
     height: 3em;
-    width: 18em;
+    width: 100%;
 
     @media (forced-colors: active) {
       border: 2px solid var(--milledoni-white);
+    }
+
+    @media (min-width: 678px) {
+      width: 18em;
     }
 
     @media (min-width: 800px) {
